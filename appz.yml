@@ -9,7 +9,6 @@ build:
   build_file: none
   output_files: output/*.zip
   image_template: graylog-5.2
-  #image_name: sranjan1995/log-collector-gl
 
 deploy:
   context: krishna-ullas/DEV
@@ -30,7 +29,7 @@ monitor:
   notify: kullas@ecloudcontrol.com    
 
 properties:
-  revision : 5
+  revision : 6
   TZ : Asia/Kolkata
   GRAYLOG_MONGODB_URI : mongodb://mongo-6-0:27017/graylog
   GRAYLOG_ELASTICSEARCH_HOSTS : http://opensearch-2-13-0.opensearch-2-13:9200/,http://opensearch-2-13-1.opensearch-2-13:9200/
