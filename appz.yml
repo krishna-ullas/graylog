@@ -32,7 +32,7 @@ properties:
   revision : 10
   TZ : Asia/Kolkata
   GRAYLOG_MONGODB_URI : mongodb://mongo-6-0:27017/graylog
-  GRAYLOG_ELASTICSEARCH_HOSTS : http://opensearch-2-13-0.opensearch-2-13:9200/,http://opensearch-2-13-1.opensearch-2-13:9200/
+  GRAYLOG_ELASTICSEARCH_HOSTS : http://opensearch-2-13-0.opensearch-2-13:9200/
   GRAYLOG_ELASTICSEARCH_DISCOVERY_ENABLED : true
   GRAYLOG_ROOT_PASSWORD_SHA2 :
       vault : GRAYLOG_ROOT_PASSWORD_SHA2
