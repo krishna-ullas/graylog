@@ -29,7 +29,7 @@ monitor:
   notify: kullas@ecloudcontrol.com    
 
 properties:
-  revision : 50
+  revision : 51
   TZ : Asia/Kolkata
   GRAYLOG_MONGODB_URI : mongodb://mongo-6-0:27017/graylog
   GRAYLOG_ELASTICSEARCH_HOSTS : http://opensearch-2-13-0.opensearch-2-13:9200/
